@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecobaldes</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" type="image/ico" href="lixeira.png">
+    <script src="java.js"></script>
+    <script src="java2.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <template id="content-template">
+        <header style="background-color: #cefad0;">
+            <img src="h1.jpeg" class="mobile-visible"  width="300px" height="120px">
+            <img src="h4.jpeg" class="mobile-hidden"   width="300px" height="120px">
+            <img src="h2.jpeg" class="mobile-hidden"  width="350px" height="120px">
+            <img src="h5.jpeg" class="mobile-hidden"  width="300px" height="120px">
+        </header>
+         <nav align="left" style="background-color: white;">
+            <a href="index.html" class="button" onclick="changeContent('home')"><img src="Voltar.gif" width="50px" height="50px">Voltar</a>
+        </nav>
+        <main class="visible" style="background-color: #cefad0;">
+            <h2>Entre em Contato</h2>
+            <form id="formContato" action="https://formspree.io/f/xyyrerak" method="POST">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+        <footer align="right" class="footer-icons">
+            <a href="https://produto.mercadolivre.com.br/MLB-4486922210-balde-18l-preto-com-tampa-_JM#position=1&search_layout=stack&type=item&tracking_id=3d8539c1-7097-4c47-b016-895daa4c2e421"><img src="merc.gif" width="50px" height="50px"></a>
+            <a href="https://wa.me/11969304642/?text=textourl"><img src="zap.gif" widht="50px" height="50px"></a>
+        </footer>
+        <footer align="center">
+         <p>&copy; 2024 Sandro S.Firmino - Todos os direitos reservados.</p>
+        </footer>
+    </template>
+
+   
+</body>
+</html>
+    
+    
+    
+    
+    
+<header  class="head" id="head2" style="background-color: #cefad0;">
+        <img src="h1.jpeg" class="mobile-visible"  width="300px" height="120px">
+        <img src="h4.jpeg" class="mobile-hidden"   width="300px" height="120px">
+        <img src="h2.jpeg" class="mobile-hidden"  width="350px" height="120px">
+        <img src="h5.jpeg" class="mobile-hidden"  width="300px" height="120px">
+</header>
+     <nav align="center" class="menunav" style="background-color: white;">
+        
+            
+        <a href="index.html" class="button" id="button1" onclick="changeContent('home')"><img src="home.gif" class="imgbt" id="bt"  width="50px" height="50px">Home</a></td>
+        <a href="#" class="button" id="button2" onclick="changeContent('produtos')"><img src="produtos.gif" class="imgbt2" id="bt2" width="50px" height="50px">Produtos</a></td>
+        <a href="#" class="button" id="button3" onclick="changeContent('quem-somos')"><img src="missao.gif" class="imgbt3" id="bt3" width="50px" height="50px">Quem somos</a>
+        <a href="#" class="button" id="loadContentButton"><img src="faleconosco.gif" class="imgbt4" id="bt4" width="50px height="50px">Fale Conosco</a>
+
+     </nav>
+     
+    <div id="maincontent" class="visible">
+        <table>
+            <tr>
+                <td><aside><img src="gif1.gif" width="px" class="cantoap" style="height: 500px; width: 250px;"></aside><td>
+                <td><img src="ecobaldes1.gif" class="logohome"></td>
+            </tr>
+        </table>
+        <main class="formul" style="display: none;">
+   
+    <div class="form-container" id="contactFormContainer">
+        <form id="contactForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+     </div>
+   <footer align="right" class="footer-icons">
+        <a href="https://produto.mercadolivre.com.br/MLB-4486922210-balde-18l-preto-com-tampa-_JM#position=1&search_layout=stack&type=item&tracking_id=3d8539c1-7097-4c47-b016-895daa4c2e421"><img src="merc.gif" width="50px" height="50px"></a>
+        <a href="https://wa.me/11969304642/?text=textourl"><img src="zap.gif" widht="50px" height="50px"></a>
+    </footer>
+    <footer class="rodp" id="fot"  align="center">
+        <p>&copy; 2024 Sandro S.Firmino - Todos os direitos reservados.</p>
+    </footer>
+
+
+</body>
+</html>
+

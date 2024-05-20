@@ -1,0 +1,167 @@
+#maincontent {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}   
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+
+.button {
+    margin-right: 20px;
+    font-size: large;
+}
+
+
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+header img {
+    display: inline-block;
+    
+}
+
+.button {
+    text-decoration: none;
+}
+
+.footer-icons {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+.principal {
+    padding-bottom: 100px;
+}
+.footer-icons a {
+    margin-right: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+table {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+
+main {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#formContato label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#formContato input[type="text"],
+#formContato input[type="tel"],
+#formContato input[type="email"],
+#formContato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#formContato button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+#formContato button:hover {
+    background-color: #45a049;
+}
+
+.logohome {
+    padding-left: 20px;
+    width: 900px;
+    height: 500px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+    display:inline-table;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: black; /* Define a cor do texto */
+    margin-right: 20px; /* Adiciona uma margem à direita para separar os botões */
+}
+
+.text {
+    margin-left: 10px; /* Adiciona uma margem à esquerda para separar o texto da imagem */
+}
+
+.materialif {
+    display:flex;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-hidden {
+        display: none;
+    }
+    
+    .cantoap {
+        display: none;
+    }
+
+    .logohome {
+        padding: auto;
+        width: 400px;
+        height: 250px;
+        
+    }
+
+    .missao {
+        display: none;
+    }
+
+    .mobile-visible {
+        width: 400px;
+    }     
+    
+    .materialif {
+        display:flex;
+    }
+  
+
+
